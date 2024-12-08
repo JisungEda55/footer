@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeHolic Footer</title>
+    <style>
+        @font-face {
+            font-family: 'LINESeedKR-Bd';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2') format('woff2');
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'LINESeedKR-Bd';
+            background-color: #000; /* 배경 검정색 */
+            color: #fff; /* 텍스트 흰색 */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        .footer img {
+            width: 80%; /* 디스플레이 너비의 60% */
+            max-width: 600px; /* 최대 너비 제한 */
+            margin-bottom: 20px; /* 이미지 아래 간격 */
+        }
+
+        .footer p {
+            margin: 10px 0 5px;
+            font-size: 14px;
+            line-height: 1.2;
+        }
+
+        .footer a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .up-arrow {
+            position: absolute;
+            bottom: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .up-arrow::before {
+            content: '↑';
+            font-size: 20px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="footer">
+        <!-- 로고 이미지 -->
+        <img src="https://raw.githubusercontent.com/JisungEda55/assetzip/6a52cf412cf6a8fadea9715a224a91bbfb345e9c/20241209_032421.png" alt="WeHolic Logo White">
+        <p>경기도 수원특례시 영통구 도청로 30, WeHolic Stadia</p>
+        <p><a href="https://www.contect.weholic.com" target="_blank">네트워크 고객지원</a></p>
+        <p>© WeHolic Corp. All Rights Reserved.</p>
+    </div>
+    <div class="up-arrow"></div>
+</body>
+</html>
